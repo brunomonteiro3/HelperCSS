@@ -13,6 +13,7 @@
 /* Font/Text settings */
 
 .b{font-weight: bold;}
+.i{font-style: italic;}
 .fl{font-weight: lighter;}
 .center{text-align: center;}
 .ti{text-indent: -9999em;}
@@ -71,4 +72,9 @@
 
 /* Other stuff */
 
+.hidden{display: none;}
+.css-crop{overflow: hidden;}
 .clear{clear: both;}
+li{list-style: none;} /* Default list style sucks - If you need it, remove this line, or create a specific rule - e.g. #your-div li{} */
+textarea:focus, input:focus{outline: none;} /* It will avoid the annoying default yellow border on Google Chrome in textarea and input */
+
