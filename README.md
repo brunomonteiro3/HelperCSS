@@ -20,13 +20,13 @@ Your **dirty** HTML without `helper.css`:
 
 And... your **dirty** CSS without `helper.css`:
 
-h1{
-	float: left;
-	font-size: 20px;
-	margin-bottom: 5px;
-	font-weight: lighter;
-	position: absolute;
-	text-align: center;}
+	h1{
+		float: left;
+		font-size: 20px;
+		margin-bottom: 5px;
+		font-weight: lighter;
+		position: absolute;
+		text-align: center;}
 
 
 Now, your **awesome** HTML with `helper.css`:
