@@ -14,13 +14,13 @@ Using `helper.css`, your other CSS files will have the lines reduced because you
 
 Your **dirty** HTML without `helper.css`:
 
-<blockquote>
+`
 	<h1>Example title</h1>
-</blockquote>
+`
 
 And... your **dirty** CSS without `helper.css`:
 
-<blockquote>
+`
 h1{
 	float: left;
 	font-size: 20px;
@@ -28,12 +28,12 @@ h1{
 	font-weight: lighter;
 	position: absolute;
 	text-align: center;}
-</blockquote>
+`
 
 Now, your **awesome** HTML with `helper.css`:
 
-<blockquote>
+`
 	<h1 class="l f20 mb5 fl pos-abs center">Example title</h1>
-</blockquote>
+`
 
 And... you don't need to write a single line of CSS. Awesome, huh? :)
